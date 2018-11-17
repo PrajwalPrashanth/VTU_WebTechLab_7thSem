@@ -1,0 +1,41 @@
+<html>
+<head><title>3A PROGRAM</title>
+<script>
+function vow(st)
+{
+
+	if(isNaN(st)){
+		//alert("a");
+		 var pos;
+		 pos=st.search(/[aeiouAEIOU]/);
+		 if(pos<0)
+		 	alert("pattern not found\n");
+		 else
+		 	alert("Position of the left most vowel is "+(pos+1));
+ 	}
+ 	else
+ 	{
+ 		var n = parseInt(st);
+		var temp=0,rev=0;
+		while(n>0)
+		{
+			temp=n%10;
+			rev=rev*10+temp;
+			n=n/10;
+			n=parseInt(n);
+		}
+		alert("Reversed number is "+rev);
+
+ 	}
+
+}
+</script>
+</head>
+<body>
+	<FORM>
+		<p>Enter the text/numbers</p>
+		<input type="text" id="voweltext"/>
+		<input type="button" value="Click here" onclick="vow(voweltext.value);"/>
+	</FORM>
+</body>
+</html>

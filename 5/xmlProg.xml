@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<?xml-stylesheet type="text/css" href="xmlProg.css"?> 
+<student_information> 
+<h1>First Student Information</h1>
+<label>USN:</label><usn>1JB11CS001</usn> 
+<label>NAME:</label><name>ABC</name> 
+<label>COLLEGE:</label><college>SJBIT</college> 
+<label>BRANCH:</label><branch>CSE</branch> 
+<label>YEAR:</label><year>2001</year> 
+<label>EMAIL:</label><email>abc@gmail.com</email> 
+<h1>Second Student Information</h1> 
+<label>USN:</label><usn>1JB11CS002</usn> 
+<label>NAME:</label><name>DEF</name> 
+<label>COLLEGE:</label><college>SJBIT</college> 
+<label>BRANCH:</label><branch>CSE</branch> 
+<label>YEAR:</label><year>2001</year> 
+<label>EMAIL:</label><email>def@gmail.com</email> 
+<h1>Third Student Information</h1> 
+<label>USN:</label><usn>1JB11CS003</usn> 
+<label>NAME:</label><name>GHI</name> 
+<label>COLLEGE:</label><college>SJBIT</college> 
+<label>BRANCH:</label><branch>CSE</branch> 
+<label>YEAR:</label><year>2001</year> 
+<label>EMAIL:</label><email>ghi@gmail.com</email> 
+</student_information> 

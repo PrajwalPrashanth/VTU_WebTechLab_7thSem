@@ -1,0 +1,27 @@
+student_information
+{
+	margin: 100px;
+
+}
+ad{
+	
+margin-top: 20px;
+} 
+
+h1
+{
+display: block;
+	font-weight: bold;
+	font-size: 30px;
+	margin-top : 20px;
+}
+label{
+	font-weight:bold;
+	color:blue;display:block;
+} 
+usn, name, college, branch, year, email{
+	font-size:14pt;
+	color:red;
+	
+} 
+

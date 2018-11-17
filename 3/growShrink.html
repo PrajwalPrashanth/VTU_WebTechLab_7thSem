@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<p id="fontSize"></p>
+<p id="myP1"></p>
+</body>
+<script>
+var size = 10;
+
+document.getElementById("myP1").innerHTML = "Text Growing";
+document.getElementById("myP1").style.color = "red";
+var myWait1 =  setInterval(GrowText1, 100);
+
+
+function GrowText1()
+{
+  if(size<50)
+  {
+	size = size + 1;
+	document.getElementById("myP1").style.fontSize = (size+'pt');
+  }
+  else
+  {
+  	document.getElementById("myP1").innerHTML = "Text shriking";
+  	document.getElementById("myP1").style.color = "blue";
+	clearInterval(myWait1);
+	myWait1 =  setInterval(ShrinkText1, 100);	
+  }
+  document.getElementById("fontSize").innerHTML = ('Font size : '+size+'pt');
+}
+function ShrinkText1()
+{
+
+  if(size>5)
+  {
+	size = size - 1;
+	document.getElementById("myP1").style.fontSize = (size+'pt');
+  }
+  document.getElementById("fontSize").innerHTML = ('Font size : '+size+'pt');
+}
+
+</script>
+</html>
